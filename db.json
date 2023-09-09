@@ -1,0 +1,15 @@
+{
+  "employee": [
+    {
+      "id": 1,
+      "name": "tus",
+      "email": "tus@gmail.com",
+      "phone": "112231234",
+      "active": true,
+      "gender": "Female",
+      "selectProvince": "Thành phố Hồ Chí Minh",
+      "selectDistrict": "Huyện Hóc Môn",
+      "selectWard": "Xã Xuân Thới Thượng"
+    }
+  ]
+}
