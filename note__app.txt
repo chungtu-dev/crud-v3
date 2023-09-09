@@ -1,1 +1,3 @@
 crud app with json server and demo loading province, district, ward
+
+run json-server before run app

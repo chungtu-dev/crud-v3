@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Link, useNavigate, useParams } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import DemoCallApiAxios from './DemoCallApiAxios'
 
 const EmpListing = () => {
@@ -78,8 +78,8 @@ const EmpListing = () => {
                 </div>
             </div>
 
-            <div className="card" style={{marginTop:'10px'}}>
-                <DemoCallApiAxios/>
+            <div className="card" style={{ marginTop: '10px' }}>
+                <DemoCallApiAxios />
             </div>
         </div>
     )

@@ -29,7 +29,7 @@ const EmpCreate = () => {
 
     const [selectProvince, setSelectProvince] = useState('');
     const [selectDistrict, setSelectDistrict] = useState('');
-    const [selectWard, setSelectWard] = useState('');
+    // const [selectWard, setSelectWard] = useState('');
 
     const navigate = useNavigate();
 

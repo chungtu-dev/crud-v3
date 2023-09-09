@@ -71,7 +71,7 @@ const EmpEdit = () => {
                                             <div className="form-group">
                                                 <label>Name</label>
                                                 <input value={name} onMouseDown={e => setValidationChange(true)} onChange={e => setNameChange(e.target.value)} className="form-control" />
-                                                {name.length == 0 && validation && <span className='text-danger'>Enter the name</span>}
+                                                {name.length === 0 && validation && <span className='text-danger'>Enter the name</span>}
                                             </div>
                                         </div>
 
